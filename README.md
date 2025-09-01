@@ -94,7 +94,8 @@ project-root/
 ├── data/                # Input CSVs
 ├── output/              # All pipeline outputs (JSONL, CSV, charts)
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── .gitattributes
 ```
 
 ---
