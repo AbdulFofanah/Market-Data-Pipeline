@@ -1,0 +1,19 @@
+# Tell GitHub Linguist to ignore compiled/binary files
+*.exe linguist-vendored
+*.o linguist-vendored
+*.obj linguist-vendored
+*.out linguist-vendored
+*.class linguist-vendored
+*.jar linguist-vendored
+
+# Ignore build/output folders
+bin/* linguist-vendored
+output/* linguist-vendored
+.vscode/* linguist-vendored
+__pycache__/* linguist-vendored
+
+# Explicitly mark source code files so they are counted
+*.cpp linguist-detectable
+*.hpp linguist-detectable
+*.java linguist-detectable
+*.py linguist-detectable
