@@ -1,4 +1,7 @@
-# Tell GitHub Linguist to ignore compiled/binary files
+# Exclude third-party and generated files from language stats
+json.hpp linguist-vendored
+**/json.hpp linguist-vendored
+
 *.exe linguist-vendored
 *.o linguist-vendored
 *.obj linguist-vendored
@@ -6,13 +9,12 @@
 *.class linguist-vendored
 *.jar linguist-vendored
 
-# Ignore build/output folders
 bin/* linguist-vendored
 output/* linguist-vendored
-.vscode/* linguist-vendored
 __pycache__/* linguist-vendored
+.vscode/* linguist-vendored
 
-# Explicitly mark source code files so they are counted
+# Ensure real source files are counted
 *.cpp linguist-detectable
 *.hpp linguist-detectable
 *.java linguist-detectable
