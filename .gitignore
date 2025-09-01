@@ -1,0 +1,21 @@
+# Ignore build files
+*.exe
+*.o
+*.obj
+*.out
+*.log
+
+# Project build/output folders
+bin/
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
